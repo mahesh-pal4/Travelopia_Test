@@ -28,11 +28,11 @@ header nav ul {
   background-color: #333;
 }
 
-li {
+header nav ul li {
   float: left;
 }
 
-li a {
+header nav ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -41,7 +41,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+header nav ul li a:hover {
   background-color: #3e80a7;
   cursor: pointer;
 }
