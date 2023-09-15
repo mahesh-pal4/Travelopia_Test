@@ -1,4 +1,6 @@
 I have used the Image for 1366 x 455 
-There is fixed height for Header and Footer, Hence fixed the max-width for image (1366 width).
+
+There is fixed height for Header and Footer mentioned in requirement doc, Hence fixed the max-width for image (1366 width).
+
 Image can me shown full width and height by adjusting the CSS properties. But as per mentioned in requirement document,I havent adjusted the image through CSS.
 Have additional added header navigation and footer note.
