@@ -40,7 +40,7 @@ header nav ul li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to #3e80a7 (black) on hover */
 header nav ul li a:hover {
   background-color: #3e80a7;
   cursor: pointer;
