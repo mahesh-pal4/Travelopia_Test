@@ -1,6 +1,19 @@
-I have used the Image for 1366 x 455 
 
-There is fixed height for Header and Footer mentioned in requirement doc, Hence fixed the max-width for image (1366 width).
+Travelopia Test Assignment
+=============================================
 
-Image can me shown full width and height by adjusting the CSS properties. But as per mentioned in requirement document,I havent adjusted the image through CSS.
-Have additional added header navigation and footer note.
+AS PER THE POINTS MENTIONED IN WORD DOC.
+
+1. Image added in Picture element of HTML (Not set by CSS background)
+2. Image is optimized for 2 different sizes one is for more than 600px screens and another is lower 600px screens, We can set multiple images in Picture element based on media queries breakpoints.
+3. Added transparent overlay to the main content by the css ifself, no need to create any additional div element for overlay.
+4. Title is on top of image and overlay.
+5. Added button under the title.
+6. By clicking on it, it shows an alert box.
+
+=============================================
+
+
+- Page is fully responsive in width and height along with Hero image.
+- Header and Footer are in 100% width and 100px in height.
+- Apart from the requirement document, have added top navigation menu as well as footer copyrights section.

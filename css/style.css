@@ -15,17 +15,17 @@ header, footer {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     background: #185274;
     color:#fff;
 }
-
+footer {
+    justify-content: center;
+}
 header nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333;
 }
 
 header nav ul li {
@@ -40,13 +40,10 @@ header nav ul li a {
   text-decoration: none;
 }
 
-/* Change the link color to #3e80a7 (black) on hover */
+/* Change the link color to #3e80a7 on hover */
 header nav ul li a:hover {
   background-color: #3e80a7;
   cursor: pointer;
-}
-.active {
-  background-color: #3e80a7;
 }
 main {
     flex: auto;
@@ -55,22 +52,27 @@ main {
     justify-content: center;
     position: relative;
 }
-main .overlay{
+main::after {
+	content: "";
 	position: absolute;
-    z-index: 2;
-    background: rgba(0, 0, 0, 0.2);
-    width: 100%;
-    height: 100%;
+	top: 0px;
+	left: 0px;
+	background: rgba(0, 0, 0, 0.2);
+	width: 100%;
+	height: 100%;
 }
+
 main .content{
     position: absolute;
     z-index: 3;
     text-align: center;
     color: #fff;
 }
-main img{
-	height: calc(100vh - 200px);
-	width: 100%;
-	position: relative;
-	z-index: 1;
+main picture img{
+	position: absolute;
+	object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;    
 }
